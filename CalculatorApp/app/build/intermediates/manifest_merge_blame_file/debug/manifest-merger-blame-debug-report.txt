@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.calc.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:4:2-22:16
+12        android:allowBackup="true"
+12-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:5:3-29
+13        android:debuggable="true"
+14        android:icon="@drawable/app_icon"
+14-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:7:3-36
+15        android:label="Calculator"
+15-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:6:3-29
+16        android:largeHeap="true"
+16-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:8:3-27
+17        android:testOnly="true"
+18        android:theme="@style/AppTheme" >
+18-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:9:3-34
+19        <activity
+19-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:10:3-18:14
+20            android:name="com.calc.app.MainActivity"
+20-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:11:4-32
+21            android:configChanges="orientation|screenSize"
+21-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:12:4-50
+22            android:screenOrientation="portrait" >
+22-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:13:4-40
+23            <intent-filter>
+23-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:14:4-17:20
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:15:5-56
+24-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:15:13-54
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:16:5-64
+26-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:16:15-62
+27            </intent-filter>
+28        </activity>
+29
+30        <uses-library
+30-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:19:3-21:30
+31            android:name="org.apache.http.legacy"
+31-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:20:4-41
+32            android:required="false" />
+32-->C:\Users\LuisDxl\Desktop\8vo Semestre\Desarrollo movil\Parcial 1\Practica 2\CalculatorApp\app\src\main\AndroidManifest.xml:21:4-28
+33    </application>
+34
+35</manifest>
